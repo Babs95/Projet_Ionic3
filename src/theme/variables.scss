@@ -1,6 +1,6 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
-
+$content-padding: 10px;
 // Font path is used to include ionicons,
 // roboto, and noto sans fonts
 $font-path: "../assets/fonts";
@@ -34,11 +34,13 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
-  danger:     #f53d3d,
+  primary:    #264885,
+  secondary:  #1C7437,
+  danger:     #7f2020,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  secondary-light:  #eeffee,
+  danger-light:     #ffeeee
 );
 
 
